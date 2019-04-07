@@ -1,42 +1,87 @@
 <style>
 
-    body {
-        font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
-        color: #777;
-        background: #777;
-        width: 960px;
-        font-size: 18px;
+    * {
+        box-sizing: border-box;
+    }
 
+    body {
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        color: #777;
+        background-color: #777;
+        width: 960px;
+        margin-left: 100px;
+        margin-right: 150px;
+        font-size: 18px;
+        text-align: center;
     }
 
     header {
-        background: #ebebeb;
+        background-color: #ebebeb;
+        padding: 20px;
+        margin-bottom: 10px; 
     }
 
     nav {
         background: #ebebeb;
+        padding: 20px;
+        margin-bottom: 20px;
     }
 
-    section {
+    #section-box {
         background: #ebebeb;
         width: 495px;
+        height: 300px;
+        padding-top: 30px;
+        float: left;
+        margin-bottom: 20px;
     }
 
-    aside {
-        background: #ebebeb;
-    }
-
-    footer {
-        background: #ebebeb;
-    }
-
-    article {
+    #article-box {
         color: #ebebeb;
         background: #777;
+        width: 475px;
+        height: 220px;
+        margin: 10px 10px 10px 10px;
+        padding-top: 10px;
     }
 
-    h1, p {
+    #header-box {
         color: #777;
         background: #ebebeb;
+        width: 440px;
+        height: 55px;
+        margin: 10px 30px 10px 15px;
+        padding-top: 10px;
+        font-weight: bold;
+        font-size: 20px;
+        text-align: center;
     }
 
+    #para-box {
+        color: #777;
+        background: #ebebeb;
+        width: 440px;
+        height: 55px;
+        margin: 10px 30px 10px 15px;
+        padding-top: 10px;
+        text-align: center;
+    }
+
+    #aside-box {
+        color: #777;
+        background: #ebebeb;
+        width: 445px;
+        height: 330px;
+        float: left;
+        margin-left: 20px;
+    }
+
+    #footer-box {
+        clear: both;
+        color: #777;
+        background: #ebebeb;
+        padding: 20px;
+        overflow: auto;
+    }
+
+</style>
