@@ -76,6 +76,7 @@
         margin-left: 20px;
     }
 
+    /*Missed the "margin" below the "footer." Didn't want to go back and have to make changes to ALL of the boxes above and mess up my webpage."*/
     #footer-box {
         clear: both;
         color: #777;
